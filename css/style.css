@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Shrikhand");
+body { font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center; }
+
+body .heading { text-transform: uppercase; font-family: 'Shrikhand'; font-weight: 200; font-size: 35px; line-height: 40px; color: #E23D8A; margin-top: 15px; }
+
+body .small-text { font-weight: 100; font-size: 14px; }
+
+/*------Header------*/
+.navbar { background-color: #E23D8A; border: none; }
+
+.navbar .navbar-nav > li > a { color: #fff; text-transform: uppercase; font-family: 'Shrikhand'; }
+
+.navbar .navbar-nav > li > a:hover { color: #9D0F40 !important; }
+
+/*------Hero------*/
+.hero { width: 100%; height: 400px; background-image: url(https://images.unsplash.com/photo-1500293772-96e55c0dae87?ixlib=rb-0.3.5&s=a86683b6fe61f7eb694caa7cbb2f20b5&auto=format&fit=crop&w=1052&q=80); background-size: cover; background-position: center; overflow: hidden; }
+
+.hero-slogan { background-color: rgba(226, 61, 138, 0.6); position: relative; padding: 30px 0; margin-top: 100px; font-family: 'Shrikhand'; text-align: center; font-weight: 100; color: #fff; }
+
+.hero-title { text-transform: uppercase; font-size: 45px; line-height: 44px; }
+
+.hero-subtitle { font-size: 30px; }
+
+/*------Song------*/
+.song { text-align: center; margin-top: 20px; }
+
+.song-author { font-weight: 700; }
+
+/*------Footer------*/
+footer { width: 100%; margin-top: 20px; padding: 30px 0; text-align: center; background-color: #E23D8A; color: #fff; }
