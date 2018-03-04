@@ -59,8 +59,3 @@ typings/
 
 # next.js build output
 .next
-
-test.html
-backupy
-/*.txt
-.sass-cache
